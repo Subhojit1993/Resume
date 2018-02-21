@@ -93,6 +93,18 @@
   color: #000000;
 }
 
+/*@media only screen and (max-width: 600px) {
+    .info {
+      display: inherit;
+      margin-top: -850%;
+    }
+    .experience {
+      display: inherit;
+      margin-top: 160%;
+    }
+
+}*/
+
 
 /*
 body {
