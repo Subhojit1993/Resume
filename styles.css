@@ -13,11 +13,25 @@
     font-weight: bold;
 }
 
+.mobile_display {
+    display: none !important;
+}
+
+.desktop_display {
+    display: block !important;
+}
+
 .section-header {
     text-transform: uppercase;
     color: deepskyblue;
     font-weight: bold;
     margin-bottom: 20px;
+}
+
+.text_ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .company-name,
@@ -91,6 +105,17 @@
 
 .fa-github-color{
   color: #000000;
+}
+
+@media only screen and (max-width: 767px) {
+  .mobile_display {
+      display: block !important;
+      text-align: center;
+  }
+
+  .desktop_display {
+      display: none !important;
+  }
 }
 
 /*@media only screen and (max-width: 600px) {
