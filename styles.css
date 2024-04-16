@@ -1,31 +1,35 @@
 .body {
-    font-family: 'Merriweather Sans';
-    color: slategrey;
-    background: white;
-    font-size: 14px;
-    padding: 40px;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  font-family: 'Merriweather Sans';
+  color: slategrey;
+  background: white;
+  font-size: 14px;
+  padding: 40px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+div.customized {
+  margin: 10px auto;
 }
 
 .name {
-    font-size: 200%;
-    font-weight: bold;
+  font-size: 200%;
+  font-weight: bold;
 }
 
 .mobile_display {
-    display: none !important;
+  display: none !important;
 }
 
 .desktop_display {
-    display: block !important;
+  display: block !important;
 }
 
 .section-header {
-    text-transform: uppercase;
-    color: deepskyblue;
-    font-weight: bold;
-    margin-bottom: 20px;
+  text-transform: uppercase;
+  color: deepskyblue;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .text_ellipsis {
@@ -36,27 +40,32 @@
 
 .company-name,
 .project-name {
-    font-weight: bolder;
+  font-weight: bolder;
 }
 
-.job-role ,
-.project-description{
-    font-style: italic;
+.job-role,
+.project-description {
+  font-style: italic;
 }
 
 .content-header {
-    color: darkslategrey;
+  color: darkslategrey;
+  margin: 5px auto;
+}
+
+div .content-header a {
+  color: darkslategrey;
 }
 
 .job-duration {
-    font-family: 'Open Sans';
-    color: lightslategrey;
-    font-size: 80%;
+  font-family: 'Open Sans';
+  color: lightslategrey;
+  font-size: 80%;
 }
 
 .job-summary,
 .project-summary {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .padding-left-0 {
@@ -99,22 +108,22 @@
   font-size: 200%;
 }
 
-.fa-stackoverflow-color{
+.fa-stackoverflow-color {
   color: #EE7A3B;
 }
 
-.fa-github-color{
+.fa-github-color {
   color: #000000;
 }
 
 @media only screen and (max-width: 767px) {
   .mobile_display {
-      display: block !important;
-      text-align: center;
+    display: block !important;
+    text-align: center;
   }
 
   .desktop_display {
-      display: none !important;
+    display: none !important;
   }
 }
 
